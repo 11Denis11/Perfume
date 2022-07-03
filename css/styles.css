@@ -1,0 +1,91 @@
+body {
+  background-color: hsl(30, 38%, 92%);
+  margin:0;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  color:#99A8B2;
+}
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 5px;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  word-spacing: normal;
+}
+img {
+  width: 100%;
+  height:100%;
+}
+a:link {
+  color:red;
+}
+
+button {
+  background-color: #66BFBF;
+  padding:0 2em;
+  display: block;
+  margin:0 auto;
+  border-radius: 10px;
+  padding:10px 50px;
+  position: relative;
+  bottom:30px;
+  font-family: fantasy;
+  font-size: 14px;
+  font-weight: bold;
+}
+button:hover {
+  background-color: #E0D8B0;
+  cursor: pointer;
+}
+.main {
+  background-color: white;
+  width:600px;
+  height:450px;
+  display:inline-flex;
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+  border-radius: 30px;
+  overflow: hidden;
+}
+.text {
+  width: 260px;
+  word-spacing: 2px;
+  word-wrap: break-word;
+  padding: 20px;
+}
+.image {
+  width: 300px;
+}
+.footer {
+  text-align: center;
+  background-color: black;
+  color:white;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  padding-left: auto;
+  padding-right: auto;
+  position: absolute;
+  bottom: 0;
+  width:100%;
+}
+
+.price_1 {
+  color:#53BF9D;
+  font-family: 'Lilita One', cursive;
+  font-size: 30px;
+  display: inline-block;
+  margin-right: 1em;
+  position: relative;
+  bottom:20px;
+}
+.price_0 {
+  text-decoration:line-through;
+  position: relative;
+  display: inline;
+  position: relative;
+  bottom:20px;
+}
